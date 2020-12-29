@@ -4,11 +4,11 @@ name: UPDATE
 
 # Controls when the action will run. 
 on:
-  schedule:
-    - cron: '1 2,4,6 * * *'
+#   schedule:
+#     - cron: '1 2,4,6 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
-#   push:
-#     branches: [ main ]
+  push:
+    branches: [ main ]
 #   pull_request:
 #     branches: [ main ]
 
